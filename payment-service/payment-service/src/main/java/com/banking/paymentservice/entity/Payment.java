@@ -16,6 +16,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Payment {
+    @Id
     @GeneratedValue(strategy = GenerationType.UUID)
     private String id;
     private String razorpayOrderId;
