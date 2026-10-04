@@ -140,8 +140,12 @@ public class NotificationService {
     }
 
 
-    private void sendAlert(String accountNumber ,String Object,String message){
-
+    private void sendAlert(String accountNumber ,String Subject,String message){
+        log.info("---------------------------");
+        log.info("Account {}",accountNumber);
+        log.info("Subject {}",Subject);
+        log.info("Message {}",message);
+        log.info("----------------------------");
     }
 
 
